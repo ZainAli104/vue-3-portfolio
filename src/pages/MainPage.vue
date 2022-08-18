@@ -398,12 +398,12 @@
             <span class="section__subtitle">My Portfolio</span>
             <h2 class="section__title">Recent Works</h2>
 
-            <div class="work__filters">
-                <span class="work__item active__work" data-filter="all">All</span>
-                <span class="work__item" data-filter=".web">Web</span>
-                <span class="work__item" data-filter=".movil">Movil</span>
-                <span class="work__item" data-filter=".design">Design</span>
-            </div>
+            <!-- <div class="work__filters">
+                <span class="work__item active__work" @click="showWorks">All</span>
+                <span class="work__item" >Web</span>
+                <span class="work__item" >Movil</span>
+                <span class="work__item" >Design</span>
+            </div> -->
 
             <div class="work__container container grid">
                 <div class="work__card mix web">
@@ -412,7 +412,7 @@
                     <h3 class="work__title">Car Selling Website</h3>
 
                     <a href="https://zain-12-project.surge.sh/" target="_blank" class="work__button">
-                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        Live Demo <i class='bx bx-right-arrow-alt work__icon'></i>
                     </a>
                 </div>
 
@@ -422,7 +422,7 @@
                     <h3 class="work__title">NFT Web3.0 Website</h3>
 
                     <a href="https://zain-nft-1.surge.sh/" target="_blank" class="work__button">
-                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        Live Demo <i class='bx bx-right-arrow-alt work__icon'></i>
                     </a>
                 </div>
 
@@ -432,7 +432,7 @@
                     <h3 class="work__title">Brand design</h3>
 
                     <a href="https://zain-18-project.surge.sh/" target="_blank" class="work__button">
-                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        Live Demo <i class='bx bx-right-arrow-alt work__icon'></i>
                     </a>
                 </div>
 
@@ -442,7 +442,7 @@
                     <h3 class="work__title">Portfolio Website</h3>
 
                     <a href="https://zain-17-project.surge.sh/" target="_blank" class="work__button">
-                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                       Live Demo <i class='bx bx-right-arrow-alt work__icon'></i>
                     </a>
                 </div>
 
@@ -452,7 +452,7 @@
                     <h3 class="work__title">E-Commerece Website</h3>
 
                     <a href="http://zain-project-e-commerce-2.surge.sh/" target="_blank" class="work__button">
-                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        Live Demo <i class='bx bx-right-arrow-alt work__icon'></i>
                     </a>
                 </div>
             </div>
